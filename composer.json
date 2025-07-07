@@ -1,0 +1,18 @@
+{
+    "name": "leoba/pixel-factory_backend",
+    "autoload": {
+        "psr-4": {
+            "Leoba\\PixelFactoryBackend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LeoBasan",
+            "email": "leopoldobasanta@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "mercadopago/dx-php": "^3.5"
+    }
+}

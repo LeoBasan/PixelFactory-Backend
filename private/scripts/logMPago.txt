@@ -1,0 +1,15 @@
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"Ryzen 5 5500 6-Core, 12-Thread","quantity":1,"currency_id":"ARS","unit_price":84}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"X870 Pro RS AMD Ryzen Socket AM5 ATX Motherboard DDR5 DIMMs 8000 MHz 256 GB PCIe Gen5 SATA3 6.0 Gb\/s","quantity":1,"currency_id":"ARS","unit_price":200}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"X870 Pro RS AMD Ryzen Socket AM5 ATX Motherboard DDR5 DIMMs 8000 MHz 256 GB PCIe Gen5 SATA3 6.0 Gb\/s","quantity":1,"currency_id":"ARS","unit_price":200}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"X870 Pro RS AMD Ryzen Socket AM5 ATX Motherboard DDR5 DIMMs 8000 MHz 256 GB PCIe Gen5 SATA3 6.0 Gb\/s","quantity":1,"currency_id":"ARS","unit_price":200}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"X870 Pro RS AMD Ryzen Socket AM5 ATX Motherboard DDR5 DIMMs 8000 MHz 256 GB PCIe Gen5 SATA3 6.0 Gb\/s","quantity":1,"currency_id":"ARS","unit_price":200}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"X870 Pro RS AMD Ryzen Socket AM5 ATX Motherboard DDR5 DIMMs 8000 MHz 256 GB PCIe Gen5 SATA3 6.0 Gb\/s","quantity":1,"currency_id":"ARS","unit_price":200}],"email":"leopoldobasanta03@gmail.com"}
+{"items":[{"title":"X870 Pro RS AMD Ryzen Socket AM5 ATX Motherboard DDR5 DIMMs 8000 MHz 256 GB PCIe Gen5 SATA3 6.0 Gb\/s","quantity":1,"currency_id":"ARS","unit_price":200}],"email":"leopoldobasanta03@gmail.com"}
