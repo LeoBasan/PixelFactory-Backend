@@ -1,0 +1,13 @@
+# Dependencias de Composer
+/vendor/
+
+# Configuraciones locales
+.env
+private/config/.env
+
+# Archivos de log o temporales
+*.log
+public_html/log-*.txt
+
+# Backups o empaquetados rar/zip
+pixelFactory_backend.rar
