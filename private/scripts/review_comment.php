@@ -66,7 +66,7 @@ try {
             $data = json_decode(file_get_contents("php://input"), true);
 			$isAdmin = isset($_GET['admin']) && $_GET['admin'] == '1';
             // Validar que el usuario sea dueño del comentario (o admin, si agregás ese sistema)
-            if(!isAdmin){
+            if(!$isAdmin){
 				$stmt = $db->prepare("SELECT * FROM review_comments WHERE id = ? AND clerk_user_id = ?");
 				$stmt->execute([$_GET['id'], $data['clerk_user_id']]);
 				if (!$stmt->fetch()) {
