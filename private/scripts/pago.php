@@ -19,6 +19,7 @@ if (!isset($input['items']) || !is_array($input['items']) || count($input['items
 // Mail del que paga o un dummy para test 
 $email = $input['email'] ?? 'no-email@dominio.com';
 
+file_put_contents(__DIR__ . '/logMPago.txt', "EMAIL DEL PAGO: ".$email."\n", FILE_APPEND);
 // 🔗 Clerk user id como referencia externa (para guardar en la venta)
 $clerk_user_id = $input['clerk_user_id'] ?? null;
 
@@ -44,6 +45,7 @@ try {
             "failure" => "https://lightsteelblue-eagle-319225.hostingersite.com/",
             "pending" => "https://lightsteelblue-eagle-319225.hostingersite.com/cart"
         ],
+        "external_reference" => $clerk_user_id,
         "auto_return" => "approved"
     ]);
 

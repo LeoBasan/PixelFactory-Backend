@@ -78,8 +78,11 @@ try {
         $payment_id, // guardo el id del pago para consulta mas tarde
     ]);
     $sales_id = $db ->lastInsertId();
+    file_put_contents(__DIR__ . '/log_mp_webhook.txt', "DETALLE PAGO: ".json_encode($mp_payment)."\n", FILE_APPEND);
+
     // 2. Insertar ítems en sales_items
     if (isset($mp_payment['additional_info']['items']) && is_array($mp_payment['additional_info']['items'])) {
+        file_put_contents(__DIR__ . '/log_mp_webhook.txt', "Voy a insertar sale_id: " . $sales_id . "\n", FILE_APPEND);
         $items = $mp_payment['additional_info']['items'];
         $stmtItem = $db->prepare("INSERT INTO sales_items (sale_id, product_id, quantity, price) VALUES (?, ?, ?, ?)");
         $stmtStock = $db->prepare("SELECT stock, price FROM products WHERE id = ?");
@@ -101,7 +104,7 @@ try {
                 $stmtUpdateStock->execute([$nuevoStock, $product_id]);
 
                 // Guardar item de venta
-                $stmtItem->execute([$sale_id, $product_id, $quantity, $price]);
+                $stmtItem->execute([$sales_id, $product_id, $quantity, $price]);
             }
         }
     }
